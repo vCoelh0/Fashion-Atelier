@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'calibri';
+    background: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header-inner-content {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*aqui estava o css da navbar */
+
+.promocao {
+    font-size: larger;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.produto1,
+.produto2,
+.produto3,
+.produto4,
+.produto5 {
+    align-items: center;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: solid #be71ee;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.produto1:hover,
+.produto2:hover,
+.produto3:hover,
+.produto4:hover,
+.produto5:hover {
+    transform: translateY(-7px);
+    transition: 0.9s;
+}
+
+.text-contact {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 45px;
+}
+
+.text-WhatsApp{
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .text-Instagram{
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+  }
+  .text-Email{
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+  }

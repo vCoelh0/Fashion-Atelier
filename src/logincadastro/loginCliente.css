@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .barra-rosa {
+    background-color: #E5BAFF;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .barra-rosa img {
+    max-width: 100%;
+    max-height: 100px;
+  }
+  
+  .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .conteudo img {
+    max-width: 500px;
+    margin-right: 90px;
+    border-radius: 10px;
+  }
+  
+  .botoes {
+    margin-top: 10px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inputs {
+    display: flex;
+    align-items: center;
+  }
+
+ .inputs input::placeholder{
+  color: black;
+  opacity: .4;
+ }
+  
+  .botoes label {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .inputs input[type="text"],
+  .inputs input[type="password"] {
+    padding: 15px;
+    margin-right: 30px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+  
+  .botoes-login {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .botoes button {
+    padding: 10px 150px;
+    margin: 30px;
+    font-size: 30px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .botoes button:hover {
+    background-color: #b361e6;
+  }
+  
+  .botoes button span {
+    padding: 5px;
+  }
+
+  .text-cliente{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  

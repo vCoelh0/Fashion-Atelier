@@ -1,0 +1,48 @@
+.container-cep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.input-cep {
+    background-color: #E5BAFF;
+    color:black;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-cep::placeholder{
+    color: black;
+    opacity: 0.3;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.input-pagamento{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button-pagamento{
+    margin-top: 1rem;
+    background-color: #be71ee;
+}
+
+.button-pagamento:hover{
+    background-color: #b361e6;
+}

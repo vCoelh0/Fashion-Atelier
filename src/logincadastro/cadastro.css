@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    font-size: 50px; /* Aumenta a fonte em 100 pixels */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    padding: 20px ;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.btn {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    padding: 20px 100px;
+    margin: 30px;
+    font-size: 30px;
+    background-color: #ffffff; /* rosa mais escuro */
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Adiciona transição para suavizar a mudança de cor */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona sombra */
+}
+
+.btn:hover {
+    background-color: #e98cd9; /* Muda para a cor vermelha ao clicar */
+}
+
+.btn span {
+    /* Cor de fundo para as palavras */
+    padding: 5px; /* Ajuste o preenchimento conforme necessário */
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+  }
+
+ .inputs input::placeholder{
+  color: black;
+  opacity: .4;
+ }
+
+ .inputs input[type="email"] {
+    padding: 15px;
+    margin-right: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+
+.img-cadastro{
+    width: 500px;
+    height: 500px;
+}
+
+.text-cadastro{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-email{
+    background-color: #be71ee;
+}
+
+.input-nome{
+    background-color: #be71ee;
+}
+
+.input-senha{
+    background-color: #be71ee;
+}
+
+.inputs input[type="text"] {
+    padding: 15px;
+    margin-right: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+
+  .inputs input[type="password"] {
+    padding: 15px;
+    margin-right: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+

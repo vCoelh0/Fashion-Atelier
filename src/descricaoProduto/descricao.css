@@ -1,0 +1,133 @@
+/* ===================================== NAVEG =========================================== */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+body {
+  font-family: Tahoma;
+}
+
+.image-descricao img{
+  width: 400px;
+  border: solid #be71ee;
+  border-radius: 10px;
+}
+
+/* ===================================== MEIO ============================================ */
+
+button {
+  padding: 10px 20px;
+  background-color: #be71ee;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #b361e6;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.container-descricao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px
+}
+
+#plus1 {
+  width: 400px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 20px;
+}
+
+.product-info {
+  flex: 1;
+  margin-left: 20px;
+  max-width: 400px;
+}
+.product-info h1{
+  width: 400px;
+}
+
+
+.paragrafo {
+  font-size:30px;
+  text-align: justify;
+  width: 400px;
+} 
+
+.price {
+  margin-top: 20px;
+}
+
+/* =============================================== CHAT =================================================== */
+
+.chat-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.chat-box {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+  background-color: #dadada;
+  border: 1px solid #ccc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 0 20px #be71ee;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.chat-header {
+  background-color: #be71ee;
+  color: #fff;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-header button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.chat-body {
+  padding: 5px;
+  height: calc(100% - 20px);
+  overflow-y: auto;
+}
+
+.chat-body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.close-chat-btn {
+  cursor: grab;
+}
+
+
+
